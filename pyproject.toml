@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "big-mood"
+version = "0.1.0"
+description = ""
+authors = ["Daara Shaw <daara.shaw@gmail.com>"]
+readme = "README.md"
+packages = [{include = "big_mood"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dash = "^2.10.2"
+pandas = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
